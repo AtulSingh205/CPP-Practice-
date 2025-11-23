@@ -26,6 +26,7 @@ int main(){
     int  size ,element;
     cout<<"Enter  the size: ";
     cin>>size;
+    
     for(int i = 1;i<size; i++){
         cout<<"Enter  a element: ";
         cin>>element;
