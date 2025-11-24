@@ -38,9 +38,7 @@ int main(){
 
     vector<int> :: iterator iter  = V.begin();
     
-    V.insert(iter+2,5,566);
-
-    
-    
+    V.insert(iter+2,5,566);    
     display(V);
+
 }
