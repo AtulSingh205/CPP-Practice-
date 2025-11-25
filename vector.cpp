@@ -28,12 +28,10 @@ int main(){
     cin>>size;
 
     for(int i = 1;i<size; i++){
-        cout<<"Enter  a element: ";
-        cin>>element;
-        V.push_back(element);
-
-        
-    }
+     cout<<"Enter  a element: ";
+     cin>>element;
+     V.push_back(element); 
+}
     display(V);
 
     vector<int> :: iterator iter  = V.begin();
@@ -41,4 +39,5 @@ int main(){
     V.insert(iter+2,5,566);    
     display(V);
 
+    
 }
