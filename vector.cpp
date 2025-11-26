@@ -39,7 +39,4 @@ int main(){
     V.insert(iter+2,5,566);    
     display(V);
 
-    
-
-
 }
