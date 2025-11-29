@@ -30,13 +30,18 @@ int main(){
     for(int i = 1;i<size; i++){
      cout<<"Enter  a element: ";
      cin>>element;
-     V.push_back(element); 
+     V.push_back(element); // elemnt ko end m add krta hai  
 }
     display(V);
 
     vector<int> :: iterator iter  = V.begin();
-    V.insert(iter+2,5,566);  
-    
+    V.insert(iter+2,5,566); 
     display(V);
 
+    for(auto it= V.begin();it!=V.end();it++){
+        cout<<*it<<" ";
+    }
+    
+    
+    
 }
