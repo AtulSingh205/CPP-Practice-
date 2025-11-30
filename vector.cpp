@@ -41,7 +41,13 @@ int main(){
     for(auto it= V.begin();it!=V.end();it++){
         cout<<*it<<" ";
     }
-    
-    
-    
+            cout<<endl;
+
+    V.pop_back();
+    display(V);
+
+    cout<<"after erase ";
+    V.erase(V.begin()+1);
+
+ display(V);
 }
