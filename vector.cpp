@@ -50,4 +50,6 @@ int main(){
     V.erase(V.begin()+1);
 
  display(V);
+
+ 
 }
