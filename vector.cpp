@@ -51,5 +51,4 @@ int main(){
 
  display(V);
 
- 
 }
